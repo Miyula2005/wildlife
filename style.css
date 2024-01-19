@@ -1,0 +1,1180 @@
+/*Nav-Bar*/ /*home*/
+*{
+  box-sizing: border-box;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:40;
+}
+body{
+  background-color: #484949f6;
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 480px) {
+  * {
+    font-size: 30px; 
+  }
+}
+
+li a{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+
+}
+
+.font-1{
+font-family: 'Times New Roman', Times, serif;
+font-size:large;
+}
+
+.font-3{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: larger;
+}
+
+.navstyle{
+  list-style: none;;
+}
+
+
+@media (max-width: 740px) {
+  header {
+    flex-direction: column;
+  }
+}
+
+
+.navstyle li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+
+
+
+ul li ul.dropdown li{
+  display: block;
+  background: transparent;
+  margin: 25px 25px;
+}
+ul li ul.dropdown{
+  width:auto;
+  background: #d1d9db;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+  ul li ul.dropdown {
+    width: 100%;
+  }
+}
+
+
+ul li a:hover{
+  background: transparent;
+}
+ul li:hover ul.dropdown{
+  display: block
+}
+
+
+
+.image-section {
+    height: 100vh; /* Adjust the height as needed */
+    background-image: url('./homeimges/elephant\ in\ srlnka.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Set text color to be visible on the background */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .image-section {
+      height: 90vh;
+    }
+  }
+
+/*para-1 responsive*/ 
+  .para-1 {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;  
+  }
+  
+  .para-1 b {
+    font-weight: bold; 
+  }
+  
+  @media (max-width: 768px) {
+    .para-1 {
+      font-size: 13px;
+    }
+  }
+  
+
+
+
+.h-1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+.h-2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+.h-3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+/*sub-para-1*/
+.sub-para-1 {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .sub-para-1 {
+      font-size: 13px;
+    }
+  } 
+  
+
+
+/*sub-para-2*/
+  .sub-para-2 {
+    font-family: Arial, sans-serif; 
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px; 
+  }
+  
+  @media (max-width: 768px) {
+    .sub-para-2 {
+      font-size: 13px;
+    }
+  }
+  
+
+
+/*sub-para-3*/
+  .sub-para-3 {
+    font-family: Arial, sans-serif;
+    font-size: 18px; 
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .sub-para-3 {
+      font-size: 13px;
+    }
+  }
+  
+  
+
+
+
+#sub-section-1,#sub-section-2,#sub-section-3 {
+    margin: 0 auto;
+    padding: 20px;
+
+  }
+  
+  .sub-section-1 h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+
+.small-img-fit-1{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.sub-section-2 h3{
+    text-align: center;
+    font-size: 28px;
+
+}
+.small-img-fit-2{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.sub-section-3 h3{
+    text-align: center;
+    font-size: 18px;
+}
+.small-img-fit-3{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+
+  #sub-section-1,#sub-section-2,#sub-section-3 p {
+    line-height: 1.5; 
+    margin: 20px; text-align: center;
+  }
+
+/* responsive (sub-sections,small-images,headings and other stuffs)*/
+  @media (max-width: 768px) {
+    #sub-section-1,
+    #sub-section-2,
+    #sub-section-3 {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .small-img-fit-1,
+  .small-img-fit-2,  
+  .small-img-fit-3 {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 480px) {
+    .sub-section-1 h3, 
+    .sub-section-2 h3,
+    .sub-section-3 h3 {
+      font-size: 13px; 
+    }
+
+    .h-1,
+    .h-2, 
+    .h-3 {
+      font-size: large;
+    } 
+  }
+
+
+@media (max-width: 480px) {
+  #sub-section-1,
+  #sub-section-2,
+  #sub-section-3 {
+    padding: 10px;  
+    margin-bottom: 0;
+  }
+}
+  
+  #sub-section-1 p,
+  #sub-section-2 p, 
+  #sub-section-3 p {  
+    margin: 10px;
+  }
+
+
+
+#wildlife-section {
+    text-align: justify;
+    margin: 20px;
+}
+
+.font-4{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: larger;
+
+}
+
+.font-5{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: larger;
+
+}
+
+
+
+
+
+
+
+
+/*wild-life responsive*/
+.wild-sec-1 {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px; 
+  }
+  
+  @media (max-width: 768px) {
+    .wild-sec-1 {
+      font-size: 13px;
+    }
+  }
+  
+
+
+  li {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .wild-hotspot-1,
+  .wild-hotspot-2,
+  .wild-hotspot-3 {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    li {
+      font-size: 13px; 
+    }
+    
+    .wild-hotspot-1,
+    .wild-hotspot-2,
+    .wild-hotspot-3 {
+      font-size: 13px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    li {
+      font-size: 13px;
+    }
+  
+    .wild-hotspot-1,
+    .wild-hotspot-2,
+    .wild-hotspot-3 {
+      font-size: 13px; 
+    }
+  }
+
+  .wild-heading-1 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .wild-heading-1 {
+      font-size: 13px;
+    }
+  }
+
+
+  .wild-heading-2 {
+    font-family: Arial, sans-serif;
+    font-size: 20px; 
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .wild-heading-2 {
+      font-size: 13px;
+    }
+  }
+  
+
+h2, h3, h4, p, li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+u {
+    text-decoration: underline;
+}
+
+#wildlife-section {
+    margin: 10px;
+  }
+
+
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  @media (max-width: 200px) {
+    footer { 
+      font-size: 0.9rem;
+    }
+  }
+
+
+
+
+
+
+
+/*introdction to wild life*/
+
+.image-section-2 {
+    height: 100vh; /* Adjust the height as needed */
+    background-image: url('introwild/pexels-future-kiiid-3567848.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Set text color to be visible on the background */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .image-section-2 {
+      height: 90vh;
+    }
+  }
+
+
+body, h1, h2, h3, p, iframe {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container div */
+div {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style the content section */
+#content-section-1 {
+    background-color: #f0f0f0; /* Light gray background color */
+    padding: 20px;
+}
+
+/* Style the heading */
+h3 {
+    color: black;
+}
+
+.intro-1{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+.intro-2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.map-container,
+.image-container {
+    flex: 0 0 48%; /* Adjust the percentage based on your preference */
+    box-sizing: border-box;
+}
+
+.iframe-4 {
+    width: 100%;
+    height: 300px; /* Adjust the height based on your preference */
+    border: 1px solid #ddd; /* Add border for iframe */
+}
+
+.small-img-fit-4 {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd; /* Add border for image */
+}
+
+
+
+
+/* Style the map container */
+iframe {
+    width: 100%;
+    height: 350px;
+    border: 1px solid #ccc; /* Add a border to the map */
+}
+
+/* Add spacing between elements */
+h4, p {
+    margin-bottom: 10px;
+}
+
+.small-img-fit-4{
+
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.iframe-4{
+    width:250px;
+    height: 240px;
+    scroll-padding-right:10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    padding-left: 0px;
+    float: center;
+    margin-top: 20px;
+    border-radius: 50px;}
+
+/* Make image responsive */
+.small-img-fit-4 {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .iframe-4 {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  /* Adjust layout for small screens */  
+  @media (max-width: 768px) {
+  
+    .small-img-fit-4,
+    .iframe-4 { 
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .iframe-4 {
+      margin-bottom: 15px;
+      border-radius: 15px; 
+    }
+    
+  }
+
+
+
+
+.small-img-fit-5{
+
+  width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.iframe-5{
+    width:250px;
+    height: 240px;
+    scroll-padding-right:10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    padding-left: 0px;
+    float: center;
+    margin-top: 20px;
+    border-radius: 50px;}
+
+.small-img-fit-5 {
+    max-width: 100%;
+    height: auto;
+  }
+  .iframe-5 {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  /* Adjust layout for small screens */
+  @media (max-width: 768px) {
+  
+    .small-img-fit-5, 
+    .iframe-5 {
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .iframe-5 {
+      margin-bottom: 15px;
+      border-radius: 15px;
+    }
+  
+  }
+
+
+/*descr-para*/
+
+.descr-4{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px; 
+  }
+  
+
+  @media (max-width: 480px) {
+    .descr-4 {
+      font-size: 14px;
+    }
+  }
+
+  .descr-5{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px; 
+  }
+  
+  @media (max-width: 768px) {
+    .descr-5 {
+      font-size: 14px;
+    }
+  }
+  
+
+/*table-css*/
+
+/* Make table a flexbox when stacked */  
+/* Base styles */
+table {
+  border-collapse: collapse;
+  width: 100%;  
+  font-size: 1rem;
+}
+
+/* Stack columns on mobile */
+@media (max-width: 768px) {
+
+  table, th, td {
+    display: block; 
+  }
+  
+  thead {
+    display: none;
+  }
+
+  td {
+    padding: .5rem 0;
+    position: relative;
+  }
+
+  td::before { 
+    content: attr(data-label);
+    font-weight: bold;
+    display: block;
+  }
+
+}
+
+/* Images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Scrollable on small screens */
+@media (max-width: 768px) {
+  
+  tbody {
+     display: block;
+     overflow-x: auto;
+     width: 100%;
+  }
+  
+}
+
+.leo-1{
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px; 
+}
+
+@media (max-width: 768px) {
+  .leo-1 {
+    font-size: 14px;
+  }
+}
+
+
+
+.ele-1{
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px; 
+}
+
+@media (max-width: 768px) {
+  .ele-1 {
+    font-size: 14px;
+  }
+}
+
+
+.pea-1{
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px; 
+}
+
+@media (max-width: 768px) {
+  .pea-1 {
+    font-size: 14px;
+  }
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+@media (max-width: 200px) {
+  footer { 
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+
+/*deprtment of wild life */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.depmt-1 {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
+
+@media (max-width: 768px) {
+  .depmt-1 {
+    font-size: 15px;
+  }
+}
+
+
+
+.font-6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.font-7{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: larger;
+}
+
+.content-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto; 
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    flex: 1; 
+    max-width: 400px; 
+}
+
+.card img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+}
+ 
+.w-1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+.w-2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+
+.iframe3 {
+  max-width: 100%; 
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .iframe3 {
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .iframe3 {
+    width: 100%;
+    margin: 15px 0;
+    border-radius: 10px;
+  }
+}
+
+.small-img-fit-6{
+    width: 300px;
+     height: 250px;
+     object-fit:cover;
+     border-radius: 20px;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+@media (max-width: 200px) {
+  footer { 
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+
+
+/*leopard page*/
+
+.image-section-3 {
+    height: 100vh; /* Adjust the height as needed */
+    background-image: url('./leopard/leopard\ page.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Set text color to be visible on the background */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .image-section-3 {
+    height: 90vh;
+  }
+}
+
+
+
+.small-img-fit-7{
+
+width: 300px;
+height: 250px;
+object-fit: cover;
+border-radius: 10px;
+}
+
+.style-1{
+    list-style-type: disc;  
+    margin-left: 20px;
+}
+
+.small-img-fit-8{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.style-2{
+    list-style-type: disc;  
+    margin-left: 20px;
+
+}
+
+.small-img-fit-9{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.style-3{
+    list-style-type: disc;  
+    margin-left: 20px;
+}
+
+.small-img-fit-10{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.style-4{
+    list-style-type: disc;  
+    margin-left: 20px;
+}
+
+
+
+.style-5{
+    list-style-type: disc;  
+    margin-left: 20px;
+}
+
+.small-img-fit-11{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.leo-1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.leo-2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.leo-3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.leo-4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.leo-5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*content*/
+
+.slleopard-1 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .slleopard-1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .illgl-1{
+    font-size: 18px;
+  }
+}
+
+
+
+
+.illgl-1 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .illgl-1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .illgl-1{
+    font-size: 18px;
+  }
+}
+
+
+.illgl-2 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .illgl-2 {
+    font-size: 20px;
+  }
+}
+
+
+
+.illgl-3 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .illgl-3 {
+    font-size: 18px;
+  }
+}
+
+
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+@media (max-width: 200px) {
+  footer { 
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+/*Animals in sri lanka*/
+
+.font-1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.style-6{
+    list-style-type: disc;  
+    margin-left: 20px;
+}
+.font-2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:larger;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #4c9341; 
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.3s; 
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 768px) {
+
+  .btn {
+    padding: 8px 15px; 
+    font-size: 14px;
+  }
+  
+}
+
+
+.btn-2 {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #4c9341; 
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.3s; 
+}
+
+.btn-2:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+
+@media (max-width: 768px) {
+
+  .btn-2 {
+    padding: 8px 15px; 
+    font-size: 14px;
+  }
+  
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+@media (max-width: 200px) {
+  footer { 
+    font-size: 0.9rem;
+  }
+}
