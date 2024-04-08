@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>home</title>
+    <title id="pageTitle"> home</title>
 </head>
 
 <body>
 
     <header>
-        <h2>WildLife in Sri Lanka</h2>
-        <nav>
+        <h2 id="headerTitle">WildLife in Sri Lanka</h2>
+        <nav id="headerMenu">
             <ul class="navstyle">
                 <li><a href="./index.html">home</a></li>
                 <li><a href="./intro.html">Introduction</a></li>
@@ -39,9 +39,9 @@
     <center>
         <h1><u class="font-1">Welcome To the wonders of SRILANKA</u></h1>
     </center>
-
+    <main id="content-container"></main>
     <br>
-    <div>
+    <div id="content">
         <header id="header1">
             <center style="color: rgb(0, 0, 0);">
                 <h3 class="para-1">Sri Lanka's wildlife is as varied as the island itself,
@@ -73,6 +73,7 @@
 
 
     <div>
+        <div id="content">
         <section id="sub-section-1">
 
             <center>
@@ -85,7 +86,7 @@
 
 
             <p class="sub-para-1">
-                Sri Lanka's 2.14% lowland rainforests, exemplified by the UNESCO Sinharaja Forest Reserve, are vital
+                Sri Lanka's 2.14% , exemplified by the UNESCO Sinharaja Forest Reserve, are vital
                 ecosystems boasting rich biodiversity.
                 With an annual rainfall of 2,500-1,800mm, Sinharaja preserves over 60% endemic trees, supporting 50% of
                 the country's endemic mammals and butterflies.<br><br>
@@ -98,6 +99,7 @@
             </p>
 
         </section>
+    </div>
     </div>
     <br>
     <br>
@@ -168,7 +170,7 @@
 
 
     <body>
-        <section id="wildlife-section">
+        <section id="wildlifeSection">
             <h2><u class="font-4" style="text-align: center;">Wild Life In Sri Lanka</u></h2>
             <br>
             <br>
@@ -259,11 +261,13 @@
 </body>
 
 <footer>
-    <center><p>All Right Reserved.</p></center>
+    <center><p id="copyright">All Right Reserved.</p></center>
   
-    <center><p>Powered by Miyulas Induwara</p></center>
+    <center><p id="poweredBy">Powered by Miyulas Induwara</p></center>
   </footer>
 
+
+  <script src="index.js"></script>
 </body>
 
 </html>

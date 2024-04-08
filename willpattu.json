@@ -1,0 +1,92 @@
+{
+    "doctype": "html",
+    "lang": "en",
+    "head": {
+      "meta": [
+        {"charset": "UTF-8"},
+        {"name": "viewport", "content": "width=device-width, initial-scale=1.0"}
+      ],
+      "link": {"rel": "stylesheet", "href": "willpattu.css"},
+      "title": "willpattu"
+    },
+    "body": {
+      "header": {
+        "h2": "WildLife in Sri Lanka",
+        "nav": {
+          "ul": {
+            "class": "navstyle",
+            "li": [
+              {"a": {"href": "./index.html", "text": "Home"}},
+              {"a": {"href": "./intro.html", "text": "Introduction"}},
+              {"a": {"href": "./deprtofwlc.html", "text": "Department of Wildlife"}},
+              {"a": {"href": "./slleopard.html", "text": "Sri Lankan Leopard"}},
+              {
+                "a": {
+                  "href": "./Animls.html",
+                  "text": "Animals in Sri Lanka ▾",
+                  "ul": {
+                    "class": "dropdown",
+                    "li": [
+                      {"a": {"href": "./yala.html", "text": "Yala National Park"}},
+                      {"a": {"href": "./willpattu.html", "text": "Wilpattu National Park"}}
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "center": {
+        "h1": {"b": {"class": "font-12", "text": "Willpattu National Park"}}
+      },
+      "p": "Wilpattu National Park is Sri Lanka's largest national park at 1,317 square kilometers. It is known for diverse flora like dry evergreen forests, scrublands and grasslands along with fauna including leopards, elephants, sloth bears and many bird species. While Wilpattu faced environmental challenges from Sri Lanka's civil war, it has reopened for visitors to now enjoy safari tours and sightings of unique wildlife. As the biggest park in the country, Wilpattu protects a range of ecosystems and animals for conservation. Visitors can spot local species like leopards and elephants while touring the beautiful mixed forests and terrain that make Wilpattu National Park a must-see destination.",
+      "h1": {"b": {"class": "font-13", "text": "Highlights Of Wilpattu National Park"}},
+      "ul": {
+        "class": "style-9",
+        "li": [
+          {"b": "Diverse Wildlife:", "text": "Leopards, elephants, sloth bears, deer, crocodiles, birds"},
+          {"b": "Flora:", "text": "Dry forests, scrublands, grasslands"},
+          {"b": "Landscape:", "text": "Lakes, beaches, plains, forests"},
+          {"b": "Activities:", "text": "Safaris, bird watching, scenic tours"},
+          {"b": "Conservation:", "text": "Largest park protecting species"},
+          {"b": "Accessibility:", "text": "Improved roads for tourists"}
+        ]
+      },
+      "section": {"class": "image-section-6"},
+      "center_2": {"h1": {"b": {"class": "font-14", "text": "Willpattu Bio-Diversity"}}},
+      "ul_2": {
+        "class": "style-10",
+        "li": [
+          {
+            "strong": {"h4": "Flora:"},
+            "ul": {"li": ["Dry mixed evergreen forests", "Thorny scrublands", "Grasslands."]}
+          },
+          {
+            "strong": {"h4": "Fauna:"},
+            "ul": {"li": ["Leopards", "Elephants", "Sloth bears", "Birds", "Reptiles, amphibians, insects"]}
+          },
+          {
+            "strong": {"h4": "Conservation:"},
+            "ul": {"li": ["Reopened after civil war", "Resilience demonstrates potential for ecotourism.", "Faces biodiversity loss and environmental challenges."]}
+          }
+        ]
+      },
+      "h1_2": {"b": {"class": "font-15", "text": "Visitors Guideline and conservation Efforts"}},
+      "ul_3": {
+        "class": "style-11",
+        "li": [
+          {"text": "Follow rules for waste disposal"},
+          {"text": "Respect wildlife by limiting interaction"},
+          {"text": "Help maintain the park's natural cleanliness"}
+        ]
+      },
+      "footer": {
+        "center": [
+          {"p": "All Right Reserved."},
+          {"p": "Powered by Miyulas Induwara"}
+        ]
+      }
+    }
+  }
+  

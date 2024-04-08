@@ -1,0 +1,20 @@
+[
+  {
+    "animal": "Leopard",
+    "facts": "The Sri Lankan leopard (Panthera pardus kotiya) is a subspecies native to Sri Lanka, listed as Vulnerable on the IUCN Red List with a population of less than 800 mature individuals.  It has a tawny coat with dark spots, is primarily nocturnal, and preys on a variety of animals. The species is threatened by habitat loss, poaching, and human-wildlife conflict.",
+    "image": "introwild/leopard.jpeg",
+    "alt": "Sri Lankan leopard"
+  },
+  {
+    "animal": "Elephant",
+    "facts": "T, native to Sri Lanka, with a population of 2,500-4,000. They inhabit tropical and subtropical moist broadleaf forests and are the third-largest subspecies of the Asian elephant.",
+    "image": "introwild/elphnt 2.jpeg",
+    "alt": "Elephant"
+  },
+  {
+    "animal": "PeaFowl",
+    "facts": "The native Sri Lankan Indian peafowl boasts vibrant plumage and distinctive calls, making it a unique and visually striking bird species. It holds cultural and religious significance in the country. The average lifespan of peafowls in the wild is around 20 years.",
+    "image": "introwild/peafowl.jpeg",
+    "alt": "PeaFowl"
+  }
+]

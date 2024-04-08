@@ -1,0 +1,34 @@
+ {
+    "CONTENT": {
+      "header": {
+        "title": "WildLife in Sri Lanka",
+        "nav": {
+          "Home": "./index.html",
+          "Introduction": "./intro.html",
+          "Department of Wildlife": "./deprtofwlc.html",
+          "Sri Lankan Leopard": "./slleopard.html",
+          "Animals in Sri Lanka": {
+            "Yala National Park": "./yala.html",
+            "Wilpattu National Park": "./willpattu.html"
+          }
+        }
+      },
+      "leopard_info": {
+        "Yala National Park": [
+          "Yala National Park in Sri Lanka is home to a significant population of leopards, which are one of the main attractions for visitors to the park.",
+          "Researchers have developed a multi-point identification approach to recognize individual leopards in the park, which takes into account changes in spot and rosette formations over time.",
+          "However, the high number of visitors to the park has led to safari operators aggressively pursuing leopards to satisfy visitor expectations, which threatens the wildlife populations."
+        ],
+        "Willpattu National Park": [
+          "Wilpattu National Park is home to a small but significant population of leopards.",
+          "Located in Sri Lanka's North Western and North Central provinces, the park has a unique variety of habitats including dense scrubland and forest that provide good cover for leopards to rest and ambush prey.",
+          "Researchers have used camera traps to estimate there are around 20-30 leopards inhabiting the 151,400 hectare park."
+        ],
+        "Horton National Park": [
+          "Horton Plains National Park, located in the central highlands of Sri Lanka, is home to a population of leopards.",
+          "A study conducted in the park used remote cameras to estimate the leopard density, finding approximately 11.7 adult individuals per 100 square kilometers.",
+          "The study also estimated the density of prey, with Sambar density being 178 per square kilometer within the central grasslands, which is a significant resource for leopards."
+        ]
+      }
+    }
+  }

@@ -1,0 +1,62 @@
+{
+    "pageTitle": "home",
+    "header": {
+      "title": "WildLife in Sri Lanka",
+      "menu": [
+        { "label": "home", "link": "./index.html" },
+        { "label": "Introduction", "link": "./intro.html" },
+        { "label": "Department of Wildlife", "link": "./deprtofwlc.html" },
+        { "label": "Sri Lankan Leopard", "link": "./slleopard.html" },
+        {
+          "label": "Animals in Sri Lanka ▾",
+          "subMenu": [
+            { "label": "Yala National Park", "link": "./yala.html" },
+            { "label": "Wilpattu National Park", "link": "./willpattu.html" }
+          ]
+        }
+      ]
+    },
+    "content": {
+      "welcomeHeader": "Welcome To the wonders of SRILANKA",
+      "welcomeParagraph": "Sri Lanka's wildlife is as varied as the island itself...",
+      "sections": [
+        {
+          "title": "Tropical Rainforests and fauna",
+          "image": "./homeimges/tropiclrainforests.jpg",
+          "description": "Sri Lanka's 2.14% lowland rainforests, exemplified by the UNESCO Sinharaja Forest Reserve..."
+        },
+        {
+          "title": "Dry zone",
+          "image": "./homeimges/dryzone.jpg",
+          "description": "The Dry Zone in Sri Lanka, housing the Sri Lanka dry-zone dry evergreen forests..."
+        },
+        {
+          "title": "Tropical Lower Montane Forest",
+          "image": "./homeimges/tropicllowermontane.jpg",
+          "description": "Sri Lanka's Tropical Lower Montane Forests, situated above 1,000 m in the Central Highlands and Knuckles mountains..."
+        }
+      ]
+    },
+    "wildlifeSection": {
+      "title": "Wild Life In Sri Lanka",
+      "information": "Sri Lanka is a wildlife haven, boasting a rich array of flora and fauna...",
+      "hotspots": [
+        "Yala National Park: for its population of leopards...",
+        "Sinharaja Forest Reserve: UNESCO World Heritage Site is a biodiversity hotspot...",
+        "Udawalawe National Park: for its large population of wild elephants..."
+      ],
+      "uniqueExperiences": [
+        "The Gathering of Elephants: Witness the largest seasonally recurring concentration of wild elephants...",
+        "Blue and Sperm Whales: Lanka offers exceptional opportunities for whale watching..."
+      ],
+      "conservationAndBiodiversity": [
+        "Sri Lanka boasts a high rate of biological endemism...",
+        "The country's montane and sub-montane wet forests, such as the Sri Lanka Montane Rainforests, are home to a wealth of endemic species..."
+      ]
+    },
+    "footer": {
+      "copyright": "All Right Reserved.",
+      "poweredBy": "Miyulas Induwara"
+    }
+  }
+  

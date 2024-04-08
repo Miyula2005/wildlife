@@ -1,0 +1,65 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(pexels-pok-rie-2049422.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1 {
+    color: #070707;
+    text-align: center;
+}
+
+p {
+    color: #181616;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#username {
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Remove default link styles */
+a {
+    text-decoration: none;
+    color: inherit; /* Inherit the color from the parent element */
+}
+
+/* Style the links inside buttons */
+button a {
+    color: inherit; /* Inherit the color from the parent element */
+}
+
+/* Adjust button size on smaller screens */
+@media screen and (max-width: 600px) {
+    button {
+        padding: 8px 16px;
+        margin: 3px;
+    }
+}
